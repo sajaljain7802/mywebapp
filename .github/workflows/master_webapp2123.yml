@@ -33,5 +33,5 @@ jobs:
       with:
         app-name: 'webapp2123'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_8fbb3b857da64070bca3e2a457f7e2ba }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_86ea33c14f2844718183aa4abe67e366 }}
         package: './myapp.zip'
